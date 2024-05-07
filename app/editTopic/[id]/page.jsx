@@ -19,7 +19,7 @@ const getTopicById = async (id) => {
 export default async function page({params}) {
   const {id} = params;
   const {topic} = await getTopicById(id);
-  // console.log(topic)
+//  console.log(topic)
   const {title, description} = topic;
   return (
     <>
