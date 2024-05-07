@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  background-color: #544b4b;
+}
+
+.topicListMainDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid lightgray;
+  margin: 10px 0;
+}
+
+.topicEditUppdet {
+  display: flex;
+  align-items: center;
+}
+
+.topicEditUppdet p {
+    margin-right: 10px;
+    color: #cd5656;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: antiquewhite;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.topicEditUppdet a {
+  background-color: #c0dadb;
+  padding: 2px;
+  border-radius: 5px;
+  color: #e13f3f;
+}
+
+.btnAddTopic{
+    background-color: aliceblue;
+    padding: 13px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px #14d7eb;
+    font-weight: bold;
+    color: #3e3737;
+}
+
+a.logo {
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px #f98484;
+}
+
+.topicListMainDiv h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
